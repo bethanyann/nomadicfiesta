@@ -2,16 +2,32 @@
 	box-sizing: border-box;
 	margin:0;
 	padding: 0px; 
-	font-family:arial;
-}
-
-#first_page{
-	width: 100%;
-	height: 100vh;
-	float: left;
-	background-color: lightblue;
+	font-family: arial, sans-serif;
 }
 
 html{
 	scroll-behavior: smooth;
+}
+
+section{
+	width: 100%;
+	height: 100vh;
+	float: left;
+}
+
+div{
+	text-align: center;
+}
+
+#landing_page {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	background-color: lightblue;
+}
+
+.heading {
+	font-size: 1.5em;
+	text-align: center;
+	vertical-align: middle;
 }
