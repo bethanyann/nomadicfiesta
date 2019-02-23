@@ -31,6 +31,58 @@ div{
 	text-align: center;
 	vertical-align: middle;
 }
+/************************ NAVIGATION **********************/
+nav{
+	width: 100%;
+	position: fixed;
+	z-index:1;
+	margin-top:0px;
+	/*background: rgba(255,255,255, .7);*/
+	padding: 5px;
+}
+
+ul {
+	width: fit-content;
+	margin:auto;
+	list-style: none;
+}
+
+ul li {
+	float:left;
+
+}
+.left{
+	margin-right: 30px;
+}
+
+.right{
+	margin-left: 30px;
+}
+
+ul li a{
+	color: black;
+	text-decoration: none;
+	font-size: .9em;
+}
+
+ul li a:hover {
+	text-decoration: underline;
+}
+
+#logo{
+	margin: 0 auto;
+	width: auto;
+}
+
+.nav_item{
+	margin-top: 10px;
+}
+
+
+h1 {
+	text-align: center;
+	margin-top: 100px;
+}
 
 #soundcloud_embed
 {
