@@ -101,7 +101,7 @@ ul li a:hover {
 }
 
 /************************ FOOTER  **********************/
-footer {
+footer { /* BOOM sticky footer - take off fixed position to have it stay at the bottom of the page instead of being always visible. */ 
 	width: 100%;
 	height: 10vh;
 	text-align: center;
